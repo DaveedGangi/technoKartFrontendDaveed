@@ -1,0 +1,290 @@
+.hamburg-menu{
+    background-color: rgb(173, 183, 192);
+    border-radius:50px;
+    border:0px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+
+}
+
+.user-image{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+}
+
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:12px;
+    border-bottom: 0.4px solid rgb(230, 221, 221);
+}
+
+.keep-logo{
+    height:40px;
+}
+
+.keep-title{
+    color:rgb(75, 127, 129);
+    font-weight: 500;
+    font-size: 22px;
+}
+
+
+.search-bar{
+    width:380px;
+    background-color: rgb(242, 243, 243);
+    outline: none;
+    border:0px;
+    padding-left: 7px;
+  
+    height: 32px;
+   
+}
+
+
+.search-button{
+    background-color: rgb(242, 243, 243);
+   
+    color: rgb(117, 98, 98);
+    border: none;
+    border-radius: 5px;
+    height:32px;
+    width: 32px;
+    text-align: center;
+    
+}
+.search-bar-container{
+    background-color: rgb(242, 243, 243);
+    padding:4px;
+    border:0.1px solid rgb(219, 250, 219);
+    border-radius: 12px;
+   
+   
+}
+
+.notes-all-add-button{
+    border:0px;
+    background-color: transparent;
+}
+.notes-add-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:200px;
+    height: 42px;
+    padding-left:4px;
+    margin-bottom: 12px;
+    
+
+}
+.notes-add-button-container:hover{
+    background-color:rgb(179, 239, 179);;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    height: 42px;
+    width: 200px;
+}
+
+.icon{
+    width: 33px;
+}
+.button{
+    width:130px;
+}
+
+.item-container{
+    padding: 12px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0px 0px 10px 0px rgb(150, 148, 148);
+    padding:22px;
+
+   
+}
+.textArea{
+    width: 200px;
+    height: 80px;
+    flex-wrap: wrap;
+    
+}
+.color{
+    width:190px;
+    height:33px;
+    border:0px;
+}
+
+.container-for-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding:22px;
+}
+
+.hide-note-add-container,.hide-notes-all-items,.hide-archive-items,.hide-bin-items{
+    display: none;
+}
+.note-add-container{
+ 
+    height:400px;
+   
+}
+.notes-all-items{
+    height:300px;
+    
+}
+.empty-note-image,.archived-image,.bin-image{
+    height:200px;
+}
+
+.item-card{
+    width: 300px;
+    height: 100%;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0px 0px 10px 0px rgb(150, 148, 148);
+    padding:22px;
+    margin:8px;
+    flex-wrap: wrap;
+}
+.all-your-notes-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+.item-card-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.itemCard-for-showing-items{
+    width:400px;
+    height:100%;
+    padding:12px;
+    box-shadow: 1px 2px 3px  0px rgb(133, 126, 126);
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin:23px;
+    
+}
+.container-for-all-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+    
+}
+
+.draft-all-items{
+    display: block;
+}
+.hide-draft-all-items{
+    display: none;
+}
+.item-image{
+    width:380px;
+    height:270px;
+}
+.edit-draft-delete-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(1, 84, 1);
+    padding:5px;
+    border-radius: 2px;
+    height:48px;
+
+}
+.list-of-all-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.editCard-post-container{
+    background-color: aliceblue;
+    box-shadow: 1px 2px 3px 0px rgb(208, 190, 190);
+    padding:12px;
+    box-sizing: border-box;
+    
+}
+
+.delete-button{
+  margin-bottom:12px;
+}
+.approve-card{
+    padding:12px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 3px 0px rgb(216, 204, 204);
+    border-radius: 9px;
+    margin:12px;
+}
+@media (max-width:767px){
+   
+    .search-bar{
+        width:150px;
+    }
+    .note-add-container{
+        height:300px;
+        width:300px;
+    }
+    .notes-all-items{
+        height:300px;
+        width:300px;
+    }
+   
+    .itemCard-for-showing-items{
+
+        width:300px;
+        height:100%;
+        padding:12px;
+        box-shadow: 1px 2px 3px  0px rgb(133, 126, 126);
+        border-radius: 12px;
+        box-sizing: border-box;
+        margin:0px;
+        margin-bottom:19px;
+        
+    }
+    .item-image{
+        width:280px;
+        height:200px;
+    }
+    .list-of-all-items{
+        width:89vw;
+
+    }
+    .editCard-post-container{
+        margin-bottom: 22px;
+    }
+
+}
